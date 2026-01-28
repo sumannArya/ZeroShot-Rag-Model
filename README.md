@@ -32,8 +32,59 @@ Why this matters:
 
 Faster setup
 
+
+🔄 Workflow
+
+User uploads up to five documents
+
+Text is extracted from PDFs or images (OCR when required)
+
+Documents are split into overlapping chunks
+
+Each chunk is converted into embeddings
+
+Embeddings are stored in an in-memory vector store
+
+User queries are embedded and matched against stored chunks
+
+Retrieved context is injected into the LLM prompt
+
+The model responds using only retrieved context
+
 Lower cost
 
 Reduced hallucinations
 
 Scales easily to new documents
+
+In-memory cosine similarity search
+(Designed for demo and can be swapped with FAISS / Pinecone in production)
+
+🛠️ Tech Stack
+Frontend
+
+⚙️ Backend
+![Node.js](https://img.shields.io/badge/Node.js-339933?logo=nodedotjs&logoColor=white)
+![API](https://img.shields.io/badge/API-Routes-blue)
+
+🤖 AI / NLP
+![Gemini](https://img.shields.io/badge/Gemini-LLM-blueviolet)
+![Ollama](https://img.shields.io/badge/Ollama-000000?logo=ollama&logoColor=white)
+![Mistral](https://img.shields.io/badge/Mistral-AI-orange)
+
+
+🧠 RAG Concepts
+![Embeddings](https://img.shields.io/badge/Embeddings-Semantic_Search-green)
+![Zero--Shot](https://img.shields.io/badge/Zero--Shot-RAG-success)
+
+📄 Document Processing
+![PDF](https://img.shields.io/badge/PDF-Extraction-red?logo=adobeacrobatreader)
+![Tesseract](https://img.shields.io/badge/Tesseract-OCR-blue)
+
+📦 Vector Store
+![Vector Store](https://img.shields.io/badge/Vector-Store-purple)
+![Cosine Similarity](https://img.shields.io/badge/Cosine-Similarity-yellow)
+
+
+
+
