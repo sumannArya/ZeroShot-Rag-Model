@@ -61,7 +61,9 @@ In-memory cosine similarity search
 (Designed for demo and can be swapped with FAISS / Pinecone in production)
 
 🛠️ Tech Stack
-Frontend
+🖥️ Frontend
+![Streamlit](https://img.shields.io/badge/Streamlit-Frontend-FF4B4B?logo=streamlit&logoColor=white)
+
 
 ⚙️ Backend
 ![Node.js](https://img.shields.io/badge/Node.js-339933?logo=nodedotjs&logoColor=white)
